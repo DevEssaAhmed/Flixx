@@ -467,20 +467,25 @@ function init() {
   switch (global.currentPage) {
     case "/":
     case "/index.html":
+    case "/Flixx/":
       displaySlider();
       displayPopularMovies();
       break;
     case "/shows.html":
+    case "/Flixx/shows.html":
       displayPopularShows();
 
       break;
     case "/movie-details.html":
+    case "/Flixx/movie-details.html":
       displayMovieDetails();
       break;
     case "/tv-details.html":
+    case "/Flixx/tv-details.html":
       displayShowDetails();
       break;
     case "/search.html":
+    case "/Flixx/search.html":
       search();
       break;
   }
